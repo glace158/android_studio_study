@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         start_button = findViewById(R.id.StartButton);
         winner_button = findViewById(R.id.WinnerButton);
 
-        start_button.setOnClickListener(new View.OnClickListener() {
+        start_button.setOnClickListener(new View.OnClickListener() {//게임 시작 버튼 클릭
             @Override
             public void onClick(View view) {
 
@@ -66,27 +66,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        winner_button.setOnClickListener(new View.OnClickListener() {
+        winner_button.setOnClickListener(new View.OnClickListener() {//승자 표시
             @Override
             public void onClick(View view) {
                 int p1_num = current_player_state[0];
                 int p2_num = current_player_state[1];
 
-                if(p1_num == -1 || p2_num == -1){
+                if(p1_num == -1 || p2_num == -1){// 처음 StartButton을 누르지 않았을 때
                     Toast.makeText(getApplicationContext(), "Press Start Button", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
-                if(p1_num == p2_num){
+                if(p1_num == p2_num){// 무승부
                     result_textview.setText("Draw!");
                 }
-                else if(p1_num == (p2_num - 1 == -1 ? 2 : p2_num - 1)){
+                else if(p1_num == (p2_num - 1 == -1 ? 2 : p2_num - 1)){// p2 가 승리
                     result_textview.setText("P2 Win!");
                     win_count[1] += 1;
                     loss_count[0] += 1;
                 }
                 else{
-                    result_textview.setText("P1 Win!");
+                    result_textview.setText("P1 Win!");// p1 이 승리
                     win_count[0] += 1;
                     loss_count[1] += 1;
                 }
@@ -94,19 +94,17 @@ public class MainActivity extends AppCompatActivity {
                 game_count++;
                 game_count_textview.setText("GameCount: " + game_count);
 
+                //승률 계산
                 calculate_win_rate(1);
                 calculate_win_rate(2);
             }
         });
     }
-    void click_command(){
-
-    }
 
     void calculate_win_rate(int player_num){//승률 계산
         int index = player_num - 1;
         if(game_count >= 10){
-            win_rate[index] = ((float) win_count[index] / (win_count[index] + loss_count[index])) * 100;
+            win_rate[index] = ((float) win_count[index] / (win_count[index] + loss_count[index])) * 100;// 승수 / (승수 + 패수)
 
             win_rate_textview[index].setText(String.format(Locale.ENGLISH,"Player%d\n%.2f", player_num, win_rate[index]));
         }
@@ -121,9 +119,10 @@ public class MainActivity extends AppCompatActivity {
             int[] num_arr = {p1_num, p2_num};
 
             if(game_count < 15){//게임이 15회 전이면
-                return num_arr;
+                return num_arr;// 바로 반환
             }
 
+            //승부 조작
             if(win_rate[0] >= target_p1_win_rate && p1_num == (p2_num - 1 == -1 ? 2 : p2_num - 1)){//p1 승률이 목표 값보다 높고 p2이 이기면
                 return num_arr;
             }
