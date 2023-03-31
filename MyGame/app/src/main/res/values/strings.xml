@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">MyGame</string>
     <string name="winner_text">Who is Winner?</string>
-    <string name="first_person_text">첫번째 사람</string>
-    <string name="second_person_text">두번째 사람</string>
-    <string name="result_text">승자?</string>
-    <string name="start_button_text">게임 시작</string>
+    <string name="result_text">Winner?</string>
+    <string name="start_button_text">Game Start</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="p1_win_loss">Player1\nWin/Loss</string>
+    <string name="p2_win_loss">Player2\nWin/Loss</string>
+    <string name="gamecount">GameCount: 0</string>
 </resources>
