@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
     Random random = new Random();
     int[] state_arr = {R.drawable.gawi, R.drawable.bawi, R.drawable.bo};
-    int[] current_player_state = {-1, -1};
+    int[] current_player_state = {-1, -1};//각 플레이어 현재 가위, 바위, 보 상태
 
-    int game_count = 0;
-    int[] win_count = {0 , 0};
-    int[] loss_count = {0 , 0};
-    float[] win_rate = {0.0f , 0.0f};
-    float target_p1_win_rate = 60.0f;
+    int game_count = 0; // 총 게임 횟수
+    int[] win_count = {0 , 0};// 각 플레이어 승수
+    int[] loss_count = {0 , 0};// 각 플레이어 패수
+    float[] win_rate = {0.0f , 0.0f};// 각 플레이어 승률 저장
+    float target_p1_win_rate = 20.0f;// player1 목표 승률 지정
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,10 +124,10 @@ public class MainActivity extends AppCompatActivity {
                 return num_arr;
             }
 
-            if(win_rate[0] > target_p1_win_rate && p1_num == (p2_num - 1 == -1 ? 2 : p2_num - 1)){//p1 승률이 목표 값보다 높고 p2이 이기면
+            if(win_rate[0] >= target_p1_win_rate && p1_num == (p2_num - 1 == -1 ? 2 : p2_num - 1)){//p1 승률이 목표 값보다 높고 p2이 이기면
                 return num_arr;
             }
-            else if(win_rate[0] < target_p1_win_rate && p2_num == (p1_num - 1 == -1 ? 2 : p1_num - 1)){//p1 승률이 목표 값보다 낮고 p1이 이기면
+            else if(win_rate[0] <= target_p1_win_rate && p2_num == (p1_num - 1 == -1 ? 2 : p1_num - 1)){//p1 승률이 목표 값보다 낮고 p1이 이기면
                 return num_arr;
             }
         }
