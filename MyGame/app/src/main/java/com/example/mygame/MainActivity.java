@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView p1_image_view;
     ImageView p2_image_view;
 
-    TextView[] win_rate_textview = new TextView[3];
+    TextView[] win_rate_textview = new TextView[2];
 
     TextView result_textview;
     TextView game_count_textview;

@@ -14,7 +14,8 @@
         android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/bawi" />
+        tools:srcCompat="@drawable/bawi"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/p2_1imageView"
@@ -24,7 +25,8 @@
         android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/bawi" />
+        tools:srcCompat="@drawable/bawi"
+        android:contentDescription="@string/todo2" />
 
     <ImageView
         android:id="@+id/p2_2imageView"
@@ -34,7 +36,8 @@
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="@+id/p2_1imageView"
         app:layout_constraintTop_toBottomOf="@+id/p2_1imageView"
-        tools:srcCompat="@drawable/bawi" />
+        tools:srcCompat="@drawable/bawi"
+        android:contentDescription="@string/todo3" />
 
     <ImageView
         android:id="@+id/p1_2imageView"
@@ -43,25 +46,27 @@
         android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="@+id/p1_1imageView"
         app:layout_constraintTop_toBottomOf="@+id/p1_1imageView"
-        tools:srcCompat="@drawable/bawi" />
+        tools:srcCompat="@drawable/bawi"
+        android:contentDescription="@string/todo4" />
 
     <Button
         android:id="@+id/GameButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="하나 뺴기"
+        android:text="@string/winner"
         app:layout_constraintBottom_toTopOf="@+id/StartImageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.877" />
 
     <ImageView
         android:id="@+id/StartImageView"
         android:layout_width="162dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="88dp"
+        android:contentDescription="@string/todo5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -74,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginTop="40dp"
-        android:text="Player1\nWin/Loss"
+        android:text="@string/player1_win_loss"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/p1_2imageView"
         app:layout_constraintHorizontal_bias="0.0"
@@ -87,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="76dp"
-        android:text="Player2\nWin/Loss"
+        android:text="@string/player2_win_loss"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">하나 빼기 게임</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="winner">하나 뺴기</string>
+    <string name="todo3">TODO</string>
+    <string name="player1_win_loss">Player1\nWin/Loss</string>
+    <string name="player2_win_loss">Player2\nWin/Loss</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
 </resources>
