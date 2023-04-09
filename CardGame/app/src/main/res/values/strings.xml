@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CardGame</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="winner">Game Start</string>
+    <string name="todo3">TODO</string>
+    <string name="player1_win_loss">Player1\nWin/Loss</string>
+    <string name="player2_win_loss">Player2\nWin/Loss</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="p1SumTextview">Sum</string>
+    <string name="p2SumTextview">Sum</string>
+</resources>
