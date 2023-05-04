@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ramanImageView"
+        android:layout_width="163dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/tteokbokkiImageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/raman"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/tteokbokkiImageView"
+        android:layout_width="163dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/festivalNodleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/ramanImageView"
+        app:srcCompat="@drawable/tteokbokki"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/festivalNodleImageView"
+        android:layout_width="166dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tteokbokkiImageView"
+        app:layout_constraintVertical_bias="0.189"
+        app:srcCompat="@drawable/festival_noodle"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/ramanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tteokbokkiTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/festivalNoodleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/tteokbokkiTextView"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/tteokbokkiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/festivalNoodleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/ramanTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
