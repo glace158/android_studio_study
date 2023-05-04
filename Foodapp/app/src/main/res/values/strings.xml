@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Foodapp</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="ramantextview">라면</string>
+    <string name="tteokbokkitextview">떡볶이</string>
+    <string name="festivalnoodletextview">잔치국수</string>
+    <string name="orderbuttontextview">주문</string>
+    <string name="tteokbokkicancel">Cancel</string>
+    <string name="ramancancel">Cancel</string>
+    <string name="festivalcancel">Cancel</string>
 </resources>

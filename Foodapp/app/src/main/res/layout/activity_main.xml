@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/raman"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo3" />
 
     <ImageView
         android:id="@+id/tteokbokkiImageView"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ramanImageView"
         app:srcCompat="@drawable/tteokbokki"
         tools:ignore="ImageContrastCheck"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo2" />
 
     <ImageView
         android:id="@+id/festivalNodleImageView"
@@ -39,35 +39,78 @@
         app:layout_constraintTop_toBottomOf="@+id/tteokbokkiImageView"
         app:layout_constraintVertical_bias="0.189"
         app:srcCompat="@drawable/festival_noodle"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo1" />
 
     <TextView
         android:id="@+id/ramanTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/tteokbokkiTextView"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ramantextview"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView"
+        app:layout_constraintTop_toTopOf="@+id/ramanImageView" />
 
     <TextView
         android:id="@+id/festivalNoodleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/festivalnoodletextview"
+        android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView"
-        app:layout_constraintTop_toBottomOf="@+id/tteokbokkiTextView"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintTop_toTopOf="@+id/festivalNodleImageView" />
 
     <TextView
         android:id="@+id/tteokbokkiTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/festivalNoodleTextView"
-        app:layout_constraintTop_toBottomOf="@+id/ramanTextView" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tteokbokkitextview"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView"
+        app:layout_constraintTop_toTopOf="@+id/tteokbokkiImageView" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/orderbuttontextview"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ramanCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ramancancel"
+        app:layout_constraintBottom_toBottomOf="@+id/ramanImageView"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/tteokbokkiCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/tteokbokkicancel"
+        app:layout_constraintBottom_toBottomOf="@+id/tteokbokkiImageView"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView" />
+
+    <Button
+        android:id="@+id/festivalCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/festivalcancel"
+        app:layout_constraintBottom_toBottomOf="@+id/festivalNodleImageView"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
