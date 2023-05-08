@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tteokbokkiCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/tteokbokkiCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tteokbokkiCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView" />
+
+    <TextView
+        android:id="@+id/ramanCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ramanCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ramanCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView" />
+
     <ImageView
         android:id="@+id/ramanImageView"
         android:layout_width="163dp"
@@ -46,9 +66,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:text="@string/ramantextview"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/ramanImageView"
         app:layout_constraintTop_toTopOf="@+id/ramanImageView" />
 
@@ -57,20 +76,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
         android:text="@string/festivalnoodletextview"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView"
         app:layout_constraintTop_toTopOf="@+id/festivalNodleImageView" />
+
+    <TextView
+        android:id="@+id/festivalNoodleCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/festivalnoodleCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/festivalCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView" />
 
     <TextView
         android:id="@+id/tteokbokkiTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
         android:text="@string/tteokbokkitextview"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView"
         app:layout_constraintTop_toTopOf="@+id/tteokbokkiImageView" />
 
@@ -78,8 +105,8 @@
         android:id="@+id/orderButton"
         android:layout_width="116dp"
         android:layout_height="64dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="56dp"
         android:text="@string/orderbuttontextview"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,6 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
         android:text="@string/tteokbokkicancel"
         app:layout_constraintBottom_toBottomOf="@+id/tteokbokkiImageView"
         app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView" />

@@ -10,4 +10,8 @@
     <string name="tteokbokkicancel">Cancel</string>
     <string name="ramancancel">Cancel</string>
     <string name="festivalcancel">Cancel</string>
+    <string name="ramanCountText">수량</string>
+    <string name="tteokbokkiCountText">수량</string>
+    <string name="festivalnoodleCountText">수량</string>
+
 </resources>
