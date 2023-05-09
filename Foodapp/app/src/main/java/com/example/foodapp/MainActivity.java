@@ -2,6 +2,7 @@ package com.example.foodapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     int[] textview_id_arr = {R.id.ramanTextView, R.id.tteokbokkiTextView, R.id.festivalNoodleTextView};
     int[] countText_id_arr = {R.id.ramanCountTextView,R.id.tteokbokkiCountTextView,R.id.festivalNoodleCountTextView};
     int[] button_id_arr = {R.id.ramanCancelButton, R.id.tteokbokkiCancelButton, R.id.festivalCancelButton};
-
+    Button order_button;
     ImageView[] imageviews = new ImageView[image_id_arr.length];
     TextView[] textviews = new TextView[textview_id_arr.length];
     TextView[] count_texts = new TextView[countText_id_arr.length];
@@ -50,7 +51,32 @@ public class MainActivity extends AppCompatActivity {
             buttons[i].setOnClickListener(cancelButtonListener);
         }
 
+        order_button = findViewById(R.id.orderButton);
+        order_button.setOnClickListener(orderButtonListener);
     }
+
+    private View.OnClickListener orderButtonListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+
+
+            Intent intent = new Intent(MainActivity.this, OrderActivity.class);//다른 액티비티를 호출
+            Bundle bundle = new Bundle();
+            int menu_count = 0;
+            for(Menu menu : menus){
+                if(menu.getCount() == 0){continue;}
+
+                bundle.putString("menu" + String.valueOf(menu_count),menu.getName());
+                bundle.putInt(menu.getName() +"price",Integer.parseInt(menu.getPrice()));
+                bundle.putString(menu.getName() +"count",String.valueOf(menu.getCount()));
+                menu_count++;
+            }
+            bundle.putInt("count",menu_count);
+            intent.putExtras(bundle);
+            startActivity(intent);
+            finish();
+        }
+    };
 
     private View.OnClickListener imageViewSelectListener = new View.OnClickListener() {
         @Override
@@ -58,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < imageviews.length ; i++){
                 if(imageviews[i].getId() == view.getId()){
                     menus[i].addCount();
-                    count_texts[i].setText("수량:" + Integer.toString(menus[i].getCount()));
+                    count_texts[i].setText("수량:" + String.valueOf(menus[i].getCount()));
                 }
             }
         }
@@ -70,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < buttons.length ; i++){
                 if(buttons[i].getId() == view.getId()){
                     menus[i].removeCount();
-                    count_texts[i].setText("수량: " + Integer.toString(menus[i].getCount()));
+                    count_texts[i].setText("수량: " + String.valueOf(menus[i].getCount()));
                 }
             }
         }

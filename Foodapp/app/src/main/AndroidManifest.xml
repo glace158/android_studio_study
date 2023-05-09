@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodapp">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".OrderActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".InitActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
