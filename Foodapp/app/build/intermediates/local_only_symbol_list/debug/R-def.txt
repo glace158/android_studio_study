@@ -28,6 +28,7 @@ id ramanImageView
 id ramanTextView
 id selectMenuTextView
 id startButton
+id textView
 id tteokbokkiCancelButton
 id tteokbokkiCountTextView
 id tteokbokkiImageView
