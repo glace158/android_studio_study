@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tteokbokkiCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/tteokbokkiCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tteokbokkiCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView" />
+
+    <TextView
+        android:id="@+id/ramanCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ramanCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ramanCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView" />
+
+    <ImageView
+        android:id="@+id/ramanImageView"
+        android:layout_width="163dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/tteokbokkiImageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/raman"
+        android:contentDescription="@string/todo3" />
+
+    <ImageView
+        android:id="@+id/tteokbokkiImageView"
+        android:layout_width="163dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/festivalNodleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/ramanImageView"
+        app:srcCompat="@drawable/tteokbokki"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo2" />
+
+    <ImageView
+        android:id="@+id/festivalNodleImageView"
+        android:layout_width="166dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tteokbokkiImageView"
+        app:layout_constraintVertical_bias="0.189"
+        app:srcCompat="@drawable/festival_noodle"
+        android:contentDescription="@string/todo1" />
+
+    <TextView
+        android:id="@+id/ramanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ramantextview"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView"
+        app:layout_constraintTop_toTopOf="@+id/ramanImageView" />
+
+    <TextView
+        android:id="@+id/festivalNoodleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/festivalnoodletextview"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView"
+        app:layout_constraintTop_toTopOf="@+id/festivalNodleImageView" />
+
+    <TextView
+        android:id="@+id/festivalNoodleCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/festivalnoodleCountText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/festivalCancelButton"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView" />
+
+    <TextView
+        android:id="@+id/tteokbokkiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/tteokbokkitextview"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView"
+        app:layout_constraintTop_toTopOf="@+id/tteokbokkiImageView" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/orderbuttontextview"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ramanCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ramancancel"
+        app:layout_constraintBottom_toBottomOf="@+id/ramanImageView"
+        app:layout_constraintStart_toEndOf="@+id/ramanImageView"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/tteokbokkiCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/tteokbokkicancel"
+        app:layout_constraintBottom_toBottomOf="@+id/tteokbokkiImageView"
+        app:layout_constraintStart_toEndOf="@+id/tteokbokkiImageView" />
+
+    <Button
+        android:id="@+id/festivalCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/festivalcancel"
+        app:layout_constraintBottom_toBottomOf="@+id/festivalNodleImageView"
+        app:layout_constraintStart_toEndOf="@+id/festivalNodleImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
