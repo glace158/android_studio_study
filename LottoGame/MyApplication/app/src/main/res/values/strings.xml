@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="score">Score</string>
+    <string name="lotto_game">Lotto Game !!\nname</string>
+    <string name="suffle">suffle</string>
+    <string name="scratch_now">scratch now!!</string>
+</resources>
