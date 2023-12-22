@@ -1,186 +1,182 @@
 [
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_sq.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/sq.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\xml\\backup_rules.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d3.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d3.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s4.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s4.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d2.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d2.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_sj.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/sj.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d4.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d4.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s5.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s5.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_back.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/back.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s6.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s6.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_dq.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\dq.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d5.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d5.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_sk.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\sk.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s3.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s3.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_dk.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/dk.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d9.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d9.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_dk.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\dk.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d6.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d6.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s9.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s9.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_da.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/da.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s8.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s8.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_dj.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\dj.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d10.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d10.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s3.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s3.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_da.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\da.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_sk.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/sk.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d7.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d7.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_sa.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/sa.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s7.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s7.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_sj.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\sj.png"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d5.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d5.png"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s2.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s2.png"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d8.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d8.png"
     },
     {
         "merged": "com.example.cardgame.app-merged_res-29:/layout_activity_main.xml.flat",
         "source": "com.example.cardgame.app-main-31:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_sq.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\sq.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d2.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d2.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s10.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s10.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d4.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d4.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_sa.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\sa.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s5.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s5.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d8.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d8.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s4.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s4.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s7.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s7.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d3.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d3.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_back.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\back.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s9.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s9.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_d6.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\d6.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d7.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d7.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_dj.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/dj.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\layout\\activity_main.xml"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s2.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s2.png"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s8.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s8.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-merged_res-29:\\drawable_s6.png.flat",
-        "source": "C:\\Users\\11\\.gradle\\daemon\\7.5\\com.example.cardgame.app-main-31:\\drawable\\s6.png"
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d9.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d9.png"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_dq.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/dq.png"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.cardgame.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_s10.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/s10.png"
+    },
+    {
+        "merged": "com.example.cardgame.app-merged_res-29:/drawable_d10.png.flat",
+        "source": "com.example.cardgame.app-main-31:/drawable/d10.png"
     }
 ]
